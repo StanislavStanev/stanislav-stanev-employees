@@ -1,0 +1,14 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+
+debug: true
+
+spring:
+  application:
+    name: pair_employees
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
